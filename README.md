@@ -7,3 +7,5 @@ This data studies whether a person will accept the coupon recommended to him in 
 Wang, Tong, Cynthia Rudin, Finale Doshi-Velez, Yimin Liu, Erica Klampfl, and Perry MacNeille. 'A bayesian framework for learning rule sets for interpretable classification.' The Journal of Machine Learning Research 18, no. 1 (2017): 2357-2393.
 
 # Data Description
+
+![alt text](https://github.com/manuzrpEd/ClassificationModel-InVehicleCoupon/blob/main/DataDescription.png?raw=true)

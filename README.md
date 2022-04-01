@@ -21,6 +21,18 @@ When we look at the data, we see that a few variables have categories with a rel
   <img src="https://github.com/manuzrpEd/ClassificationModel-InVehicleCoupon/blob/main/img/crosstab_destination.png" alt="crosstab_destination"/>
  </p>
  
+ In the data, we note that there are relatively more acceptances with:
+
+* lower income
+* lower age (younger drivers)
+* no children
+* single marital status
+* Carry out & Take away coupons
+* Restaurant(<20)
+* Sunny weather
+* 80 temperature (higher temperature)
+
+
  
 
 

@@ -18,6 +18,7 @@ When we look at the data, we see that a few variables have categories with a rel
 
 <p float="left">
   <img src=“https://github.com/manuzrpEd/ClassificationModel-InVehicleCoupon/blob/main/img/crosstab_expiration.png” alt="AffiliateWT"/>
+ </p>
 
 
 

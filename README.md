@@ -17,7 +17,7 @@ Wang, Tong, Cynthia Rudin, Finale Doshi-Velez, Yimin Liu, Erica Klampfl, and Per
 When we look at the data, we see that a few variables have categories with a relatively higher number of coupon acceptances. For example 1-day expiration coupons have a relatively higher number of coupon acceptances with respect to 2-hour expiration coupons. 
 
 <p float="left">
-  <img src=“https://github.com/manuzrpEd/ClassificationModel-InVehicleCoupon/blob/main/img/crosstab_expiration.png” alt="AffiliateWT"/>
+  <img src=“https://github.com/manuzrpEd/ClassificationModel-InVehicleCoupon/blob/main/img/crosstab_expiration.png” alt="crosstab_expiration"/>
  </p>
 
 

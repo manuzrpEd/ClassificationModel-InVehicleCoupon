@@ -14,4 +14,31 @@ Wang, Tong, Cynthia Rudin, Finale Doshi-Velez, Yimin Liu, Erica Klampfl, and Per
 
 # Results
 
+When we look at the data, we see that a few variables have categories with a relatively higher number of coupon acceptances. For example, 1-day expiration coupons have a relatively higher number of coupon acceptances with respect to 2-hour expiration coupons. As a second example, drivers whose destination is classified as 'Not Urgent Place' vs 'Home' or 'Work' have a relatively higher number of coupon acceptances.
+
+<p float="left">
+  <img src="https://github.com/manuzrpEd/ClassificationModel-InVehicleCoupon/blob/main/img/crosstab_expiration.png" alt="crosstab_expiration"/>
+  <img src="https://github.com/manuzrpEd/ClassificationModel-InVehicleCoupon/blob/main/img/crosstab_destination.png" alt="crosstab_destination"/>
+ </p>
+ 
+ In the data, we note that there are relatively more acceptances with:
+
+* lower income
+* lower age (younger drivers)
+* no children
+* single marital status
+* Carry out & Take away coupons + Restaurant(<$20), relative to Coffee House, Bar or Restaurant($20-$50) 
+* Sunny weather as opposed to Rainy or Snowy 
+* 80 temperature (higher temperature), relative to 55 or 30 temperature.
+
+Because many of these variables may correlate with each other (for example high temperatures may coincide with sunny weather), we need to construct a model and estimate it to select the most predictive features for coupon acceptance. We can use the Logistic regression model. The probability or odds of the response variable (coupon acceptance) is modeled as function of multiple independent variables.
+
+<p float="left">
+  <img src="https://github.com/manuzrpEd/ClassificationModel-InVehicleCoupon/blob/main/logit_model.png" alt="crosstab_expiration"/>
+ </p>
+
+ 
+
+
+
 

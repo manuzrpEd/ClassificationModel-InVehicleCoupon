@@ -41,7 +41,7 @@ Because many of these variables may correlate with each other (for example high 
   <img src="https://github.com/manuzrpEd/ClassificationModel-InVehicleCoupon/blob/main/logit_model.png" alt="model"/>
  </p>
  
- y = {0,1} = {reject,accept}
+ y = {0, 1} = {reject, accept}
  
  ## Estimation ##
  

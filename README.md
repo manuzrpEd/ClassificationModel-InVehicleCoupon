@@ -41,6 +41,8 @@ Because many of these variables may correlate with each other (for example high 
   <img src="https://github.com/manuzrpEd/ClassificationModel-InVehicleCoupon/blob/main/logit_model.png" alt="model"/>
  </p>
  
+ y = {0,1} = {reject,accept}
+ 
  ## Estimation ##
  
 Our estimated model predicts correctly 69.2% of the actual coupon decision (whether reject or accept).

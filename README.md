@@ -14,6 +14,8 @@ Wang, Tong, Cynthia Rudin, Finale Doshi-Velez, Yimin Liu, Erica Klampfl, and Per
 
 # Results
 
+## Data Analysis ##
+
 When we look at the data, we see that a few variables have categories with a relatively higher number of coupon acceptances. For example, 1-day expiration coupons have a relatively higher number of coupon acceptances with respect to 2-hour expiration coupons. As a second example, drivers whose destination is classified as 'Not Urgent Place' vs 'Home' or 'Work' have a relatively higher number of coupon acceptances.
 
 <p float="left">
@@ -33,12 +35,22 @@ When we look at the data, we see that a few variables have categories with a rel
 
 Because many of these variables may correlate with each other (for example high temperatures may coincide with sunny weather), we need to construct a model and estimate it to select the most predictive features for coupon acceptance. We can use the Logistic regression model. The probability or odds of the response variable (coupon acceptance) is modeled as function of multiple independent variables.
 
+## Model ##
+
 <p float="left">
-  <img src="https://github.com/manuzrpEd/ClassificationModel-InVehicleCoupon/blob/main/logit_model.png" alt="crosstab_expiration"/>
+  <img src="https://github.com/manuzrpEd/ClassificationModel-InVehicleCoupon/blob/main/logit_model.png" alt="model"/>
  </p>
-
  
+ ## Estimation ##
+ 
+Our estimated model predicts correctly 69.2% of the actual coupon decision (whether reject or accept).
+ 
+<p float="left">
+<img src="https://github.com/manuzrpEd/ClassificationModel-InVehicleCoupon/blob/main/confusion_matrix.png" alt="confusion_matrix"/>
+</p>
+ 
+The model correctly predicts 5592 acceptances out of 7210 actual acceptances.
 
+Nevertheless, our estimated model also predicts coupon rejects.
 
-
-
+It correctly predicts 3188 coupon rejects out of 5474 actual rejects.

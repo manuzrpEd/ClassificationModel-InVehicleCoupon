@@ -27,10 +27,9 @@ When we look at the data, we see that a few variables have categories with a rel
 * lower age (younger drivers)
 * no children
 * single marital status
-* Carry out & Take away coupons
-* Restaurant(<20)
-* Sunny weather
-* 80 temperature (higher temperature)
+* Carry out & Take away coupons + Restaurant(<$20), relative to Coffee House, Bar or Restaurant($20-$50) 
+* Sunny weather as opposed to Rainy or Snowy 
+* 80 temperature (higher temperature), relative to 55 or 30 temperature.
 
 
  

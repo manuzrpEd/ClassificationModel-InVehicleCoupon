@@ -14,7 +14,7 @@ Wang, Tong, Cynthia Rudin, Finale Doshi-Velez, Yimin Liu, Erica Klampfl, and Per
 
 # Results
 
-## Data Analysis ##
+### Data Analysis ###
 
 When we look at the data, we see that a few variables have categories with a relatively higher number of coupon acceptances. For example, 1-day expiration coupons have a relatively higher number of coupon acceptances with respect to 2-hour expiration coupons. As a second example, drivers whose destination is classified as 'Not Urgent Place' vs 'Home' or 'Work' have a relatively higher number of coupon acceptances.
 
@@ -35,7 +35,7 @@ When we look at the data, we see that a few variables have categories with a rel
 
 Because many of these variables may correlate with each other (for example high temperatures may coincide with sunny weather), we need to construct a model and estimate it to select the most predictive features for coupon acceptance. We can use the Logistic regression model. The probability or odds of the response variable (coupon acceptance) is modeled as function of multiple independent variables.
 
-## Model ##
+### Model ###
 
 <p float="left">
   <img src="https://github.com/manuzrpEd/ClassificationModel-InVehicleCoupon/blob/main/logit_model.png" alt="model"/>
@@ -43,7 +43,7 @@ Because many of these variables may correlate with each other (for example high 
  
  y = {0, 1} = {reject, accept}
  
- ## Estimation ##
+ ### Estimation ###
  
 Our estimated model predicts correctly 69.2% of the actual coupon decision (whether reject or accept).
  
@@ -69,5 +69,5 @@ A model with No Skill would have an AUC of 50%.
 
 A model with perfect predictive capability would have an AUC score of 100%.
 
-## Most relevant features ##
+### Most relevant features ###
 

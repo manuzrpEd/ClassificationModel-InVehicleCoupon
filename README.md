@@ -71,3 +71,19 @@ A model with perfect predictive capability would have an AUC score of 100%.
 
 ### Most relevant features ###
 
+Our model identifies the most important features to predict coupon acceptance and suggests that:
+
+    * having as a destination a 'No Urgent Place'
+    * having Sunny weather
+    * Carry out & Take away + Restaurant(<$20) coupons
+
+do in fact increase the likelihood of accepting a coupon.
+
+On the contrary, our model suggests that:
+
+    * having Kid(s) as passengers
+    * having a coupon that expires in 2h
+    * never been to a CoffeeHouse
+    * coupon is in the opposite direction
+
+do in fact decrease the likelihood of accepting a coupon.

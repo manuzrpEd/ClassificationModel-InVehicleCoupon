@@ -87,3 +87,5 @@ On the contrary, our model suggests that:
     * coupon is in the opposite direction
 
 do in fact decrease the likelihood of accepting a coupon.
+
+See the full notebook [here](https://github.com/manuzrpEd/ClassificationModel-InVehicleCoupon/blob/main/ClassificationModel-InVehicleCoupon.ipynb).

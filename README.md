@@ -31,7 +31,9 @@ When we look at the data, we see that a few variables have categories with a rel
 * Sunny weather as opposed to Rainy or Snowy 
 * 80 temperature (higher temperature), relative to 55 or 30 temperature.
 
+Because many of these variables may correlate with each other (for example high temperatures may coincide with sunny weather), we need to construct a model and estimate it to select the most predictive features for coupon acceptance. We can use the Logistic regression model. The probability or odds of the response variable (coupon acceptance) is modeled as function of multiple independent variables.
 
+\sum_{\forall i}{x_i^{2}}
  
 
 

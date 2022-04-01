@@ -1,4 +1,4 @@
-# ClassificationModel-InVehicleCoupon
+# Classification Model, In-Vehicle Coupon
 
 * The aim of this assignment is to build a simple classification model for the in-vehicle coupon recommendation data set from the UCI Machine Learning [repository](https://archive.ics.uci.edu/ml/datasets/in-vehicle+coupon+recommendation).
 * This is a simple dataset in which the objective of the model should be to determine whether a driver would accept a coupon based on a set of features including the type of coupon.
@@ -13,3 +13,5 @@ Wang, Tong, Cynthia Rudin, Finale Doshi-Velez, Yimin Liu, Erica Klampfl, and Per
 ![alt text](https://github.com/manuzrpEd/ClassificationModel-InVehicleCoupon/blob/main/DataDescription.png?raw=true)
 
 # Results
+
+

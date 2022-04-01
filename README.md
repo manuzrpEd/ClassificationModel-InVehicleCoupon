@@ -46,7 +46,7 @@ Because many of these variables may correlate with each other (for example high 
 Our estimated model predicts correctly 69.2% of the actual coupon decision (whether reject or accept).
  
 <p float="left">
-<img src="https://github.com/manuzrpEd/ClassificationModel-InVehicleCoupon/blob/main/confusion_matrix.png" alt="confusion_matrix"/>
+<img src="https://github.com/manuzrpEd/ClassificationModel-InVehicleCoupon/blob/main/confusion_matrix_coupon.png" alt="confusion_matrix"/>
 </p>
  
 The model correctly predicts 5592 acceptances out of 7210 actual acceptances.
@@ -54,3 +54,16 @@ The model correctly predicts 5592 acceptances out of 7210 actual acceptances.
 Nevertheless, our estimated model also predicts coupon rejects.
 
 It correctly predicts 3188 coupon rejects out of 5474 actual rejects.
+
+<p float="left">
+<img src="https://github.com/manuzrpEd/ClassificationModel-InVehicleCoupon/blob/main/auc.png" alt="auc"/>
+</p>
+
+The Area Under the ROC curve (AUC) is an aggregated metric that evaluates how well a logistic regression model classifies positive and negative outcomes at all possible cutoffs. It can range from 0.5 to 1, and the larger it is the better.
+
+Our estimated model has an AUC of 74.7%.
+
+A model with No Skill would have an AUC of 50%.
+
+A model with perfect predictive capability would have an AUC score of 100%.
+
